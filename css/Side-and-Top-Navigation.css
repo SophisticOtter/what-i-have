@@ -1,0 +1,29 @@
+#sidenav {
+  display: none;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+@media (min-width: 992px) {
+  #sidenav {
+    display: initial;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbar {
+    display: none;
+  }
+}
+
+@media (max-height: 665px) {
+  #sidenav_logo {
+    display: none;
+  }
+}
+
